@@ -1,0 +1,571 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.header {
+  margin: auto;
+  height: 100px;
+  width: 100%;
+}
+
+.header .header_navbar {
+  width: 100%;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header .header_navbar .navbar {
+  padding: none;
+}
+
+.header .header_navbar .navbar .logo img {
+  margin-left: 25px;
+}
+
+.header .header_navbar .navbar .form-group {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 600px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: none;
+}
+
+.header .header_navbar .navbar .form-group input {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header_navbar .navbar .items {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  float: right;
+  margin-left: 300px;
+}
+
+.header .header_navbar .navbar .items .blog {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 50px;
+}
+
+.header .header_navbar .navbar .items .Supplier {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 50px;
+}
+
+.header .header_navbar .navbar .items .playstore {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 50px;
+}
+
+.header .header_navbar .navbar .items .playstore img {
+  height: 40px;
+  width: 160px;
+}
+
+.header .header_navbar .navbar .items .appstore {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 30px;
+}
+
+.header .header_navbar .navbar .items .appstore img {
+  height: 40px;
+  width: 160px;
+}
+
+.header .drop_menu {
+  height: 40px;
+  width: 100%;
+}
+
+.header .drop_menu .products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header .drop_menu .products .dropdown {
+  margin-left: 60px;
+}
+
+.banner {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 60%;
+}
+
+.banner .banner_left {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: left;
+  width: 55%;
+  background-color: whitesmoke;
+}
+
+.banner .banner_left .matter {
+  width: 80%;
+  margin: auto;
+}
+
+.banner .banner_left .matter h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.banner .banner_left .small_text {
+  margin-top: 50px;
+  width: 70%;
+  font-size: 20px;
+  height: 50px;
+  padding: 10px;
+  color: #666666;
+  background-color: white;
+}
+
+.banner .banner_left .download {
+  margin-top: 40px;
+  width: 45%;
+  height: 45px;
+  color: white;
+  background-color: #f05a9b;
+  padding: 10px,15px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.banner .banner_left .download .download span {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 16px;
+}
+
+.banner .banner_right {
+  margin-right: 55px;
+  float: right;
+  width: 40%;
+  margin-bottom: 100px;
+}
+
+.line {
+  margin-left: 380px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 100px;
+  width: 60%;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.line .line hr {
+  height: 100px;
+}
+
+.line .line span {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.ethenic {
+  margin-bottom: 150px;
+  background-image: url(img/hbu-unoBg.jpg);
+  width: 70%;
+  height: 550px;
+  margin: auto;
+}
+
+.homecare {
+  background-image: url(img/hbd-dos.jpg);
+  margin-bottom: 100px;
+  margin-top: 150px;
+  width: 70%;
+  height: 550px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homecare img {
+  margin-right: 30px;
+  float: right;
+}
+
+.banner2 {
+  background-image: url(img/download_banner-19ca4d63d9c1dc44bc8cbfae62b60bd7.jpg);
+  width: 70%;
+  height: 650px;
+  margin: auto;
+  margin-bottom: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner2 .content {
+  margin-top: 55px;
+  float: right;
+  margin-right: 50px;
+}
+
+.banner2 .content .content_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.banner2 .content .content_2 {
+  margin-top: 30px;
+  font-size: 45px;
+  text-align: right;
+  padding: 5px,0px;
+  margin: 10px,0px;
+  color: #f05a9b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bolder;
+}
+
+.banner2 .content .play_store {
+  margin-top: 60px;
+}
+
+.banner2 .content .play_store span img {
+  float: right;
+  margin-right: 20px;
+  height: 50px;
+  width: 150px;
+}
+
+.products_details {
+  margin-bottom: 30px;
+  background-color: whitesmoke;
+}
+
+.products_details .details {
+  margin-top: 10px;
+  width: 88%;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.products_details .details ul {
+  text-align: justify;
+  margin-left: 30px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #6d6d7a;
+}
+
+.products_details .items {
+  margin-top: 30px;
+}
+
+.products_details .items .item_title {
+  font-size: 12px;
+  font-weight: 700;
+  color: #6d6d7a;
+}
+
+.products_details .items .item_details {
+  text-align: justify;
+  font-size: 12px;
+  color: #6d6d7a;
+}
+
+.products_details .items a {
+  color: #ff79b0;
+}
+
+.footer {
+  width: 100%;
+  height: 320px;
+  background-color: #3f3f47;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto;
+}
+
+.footer .left {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin-left: 50px;
+  margin-right: 50px;
+  float: left;
+}
+
+.footer .left .footer_title {
+  font-size: 32px;
+  color: #ff79b0;
+}
+
+.footer .left p {
+  color: white;
+}
+
+.footer .right {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  float: right;
+}
+
+.footer .right .career {
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-right: 100px;
+  color: white;
+  font-size: 16px;
+  list-style-type: none;
+}
+
+.footer .right .career li {
+  margin-bottom: 20px;
+}
+
+.footer .right .career li a {
+  font-size: 22px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.footer .right .support {
+  margin-top: 30px;
+  margin-right: 100px;
+  color: white;
+  font-size: 16px;
+  list-style-type: none;
+}
+
+.footer .right .support li {
+  margin-bottom: 20px;
+}
+
+.footer .right .contact {
+  color: white;
+  margin-top: 30px;
+  font-size: 16px;
+  list-style-type: none;
+}
+
+.footer .right .contact li {
+  margin-bottom: 20px;
+}
+
+/*--------------------------------------Women Ethenics----------------------------------------------*/
+/*-------------------------*/
+.descripton {
+  background-color: whitesmoke;
+  height: 100px;
+  margin-top: 10px;
+  width: 100%;
+  height: 150px;
+}
+
+.descripton .container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.cloths {
+  width: 1280px;
+  margin: auto;
+}
+
+.cloths .showing {
+  margin-bottom: -100px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.cloths .things {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.3333%;
+          flex: 0 0 33.3333%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cloths .things .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 250px;
+  width: 376px;
+  margin: 130px 25px 42px;
+}
+
+.cloths .things .card .card-img-top {
+  height: 250px;
+  position: relative;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.cloths .things .card .card-body .rating_rewiew {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.cloths .things .card .card-body .rating_rewiew .rating {
+  margin-top: 15px;
+  font-size: 14px;
+  height: 22px;
+  width: 50px;
+  color: #92cc00;
+  background: #efffc6;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.cloths .things .card .card-body .rating_rewiew .review {
+  margin-top: 15px;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.pagination {
+  width: 50%;
+  margin-top: -80px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pagination .row {
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pagination .row .numbers {
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagination .row .numbers .page_btn {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.pagination .row .numbers .page_btn span {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.pagination .row .numbers .page_btn span .circle {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 30px;
+  width: 30px;
+}
+/*# sourceMappingURL=index.css.map */

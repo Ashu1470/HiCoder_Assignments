@@ -1,0 +1,68 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Mukta', sans-serif;
+  
+  }
+  .main{
+    width: 60%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 100px;
+    background-color: darkblue;
+    margin-bottom: 100px;
+  }
+  
+  .container{
+    min-width: 55%;
+    margin: auto;
+    height: auto;
+    color: white;
+  }
+  .container h1{
+    text-align: center;
+    font-weight:bolder;
+  }
+  
+  .funtions{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .msj_box{
+    font-size:22px;
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  #msj li{
+    text-decoration: none;
+  }
+  
+  #msj a{
+    text-decoration:none;
+    color: red;
+    float: right;
+  }
+  .input_spc{
+    width:350px;
+    height:40px;
+    font-size: 20px;
+    border-radius:5px;
+  }
+  
+  .add_btn{
+    width:80px;
+    height:40px;
+    margin-left: 10px;
+    border-radius:8px;
+  }
+
+  .error{
+    color: white;
+    font-size:25px;
+    align-items: center;
+    text-align: center;
+  }

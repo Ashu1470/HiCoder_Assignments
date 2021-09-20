@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  height: 40px;
+  background-color: white;
+}
+.logo {
+  margin-left: 450px;
+}
+.search {
+  margin-left: 50px;
+}
+.others {
+  margin-right: 450px;
+}
+.others i {
+  margin-left: 12px;
+  font-size: 30px;
+}
+.story {
+  margin-right: 50px;
+  margin-left: 450px;
+  display: flex;
+  margin-top:45px;
+  width:33%;
+  height: 120px;
+  background-color:white;
+  overflow-x: hidden;
+  border: 1px solid lightslategray;
+}
+.stories {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+}
+.stories p {
+    text-align: center;
+    color:black;
+  font-size: 10px;
+}
+.stories img {
+  height:60px;
+  width:63px;
+  border:3px solid palevioletred;
+  border-radius: 100px;
+}
+
+.story a{
+    font-size:45px;
+    background-color: wheat;
+    height:30px;
+    width: 30px;
+    border-radius: 100%;
+    margin-top:15px;
+}
+
+.card-deck{
+    margin-top:40px;
+    width:35%;
+    margin-left:430px;
+}
+
+.card-header{
+    display: flex;
+}
+.card-header p{
+    margin-left: 10px;
+    font-size:20px;
+}
+
+.card-body{
+    padding: 1rem;
+}
+.card-body i{
+    margin-top:2px;
+    margin-left:5px;
+
+}
+
+.suggestion{
+    margin-top:-80px;
+    float: right;
+    width: 20%;
+    height:450px;
+    margin-right:360px;
+}
+.account{
+    display:flex;
+}
+.account p{
+    margin-top:10px;
+    margin-left:10px;
+}
+.account i{
+    font-size:60px;
+}
+.suggest small{
+    font-size:20px;
+}
+.account_new{
+    display:flex;
+}
+.account_new p{
+    margin-left:10px;
+}

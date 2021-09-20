@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+}
+.navbar{
+    height:70px;
+    background-color:#ffff;
+    display:flex;
+    
+}
+.menu{
+    display:block;
+    align-items: flex-start;
+}
+.menu i{    
+    margin-left:10px; 
+    margin-top:px;  
+    font-size:40px;
+}
+.logo_img{
+    margin-top :-16px;
+}
+
+.search{
+    display:flex;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-left:250px;
+    align-items:center;
+}
+.search input{
+    margin-left:0px;
+    margin-top:8px;
+    height:30px;
+    width:600px;
+}
+.search button{
+    height:30px;
+    margin-top:7px;
+    margin-left:-1px;
+}
+.search i{
+    margin-top:20px;
+    display:inline;
+    margin:20px;
+    font-size:26px;
+}
+
+.extra{
+    float: right;
+    margin-left:360px;
+    margin-right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.extra i{
+    margin-left:22px;
+    font-size:30px;
+}
+
+.slider{
+    width: 100%;
+    height:8%;
+    margin-left: 100px;
+    overflow-x:hidden;
+    
+}
+.vid_tags{
+    display: flex;
+}
+
+.tags{
+    background-color:lightgray;
+    color: black; 
+    text-align:center;
+    border-radius:10px;
+    height:20%;  
+    width:9%;
+    margin-left: 10px;
+}
+.tags h5{
+    margin: auto;
+    font-size:15px;
+}
+.menubar{
+    width:5%;
+    height: 100%;
+    position: fixed;
+ }
+.menubar li{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-100px;
+    display:grid;
+}
+
+.menubar li i{
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+}
+.menubar li p{
+    margin: auto;   
+}
+
+.youtube_videos{
+    margin-left:120px;
+}
+.video_list{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.card{
+    margin-left: 50px;
+}
+.card-body img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.card_title{
+    display:flex;
+}
+.card_title i{
+    float: right;
+    margin-left: 100px;
+}

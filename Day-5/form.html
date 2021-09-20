@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Form</title>
+</head>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        form{
+            margin-top:230px;
+            margin: auto;
+            margin-top:100px;
+            margin-left:650px;
+            width: 50%;
+        }
+        select{
+            width: 500px;
+            height: 30px;
+            border-radius:5px;
+        }
+        input{
+            width: 500px;
+            height: 30px;
+            border-radius:5px;
+        }
+        p{
+            font-size:15px;
+            font-weight: bold;
+        }
+        button{
+            height:20px;
+            width:100px;
+        }
+        .sub{
+            width:100px;
+            background-color:goldenrod;
+        }
+    </style>
+<body>
+    <div class="amz-form">
+        <form>
+            <br>
+            <p>Country/Religion</p>
+            <select name="States" id="States">
+                <option>India</option>
+                <option >M.P</option>
+                <option>A.P</option>
+                <option>H.P</option>
+            </select><br>
+            <br>
+            <p>Full Name(First and Last name)</p>
+            <input type="text"value="John">
+            <br>
+            <p>Mobile Number</p>
+            <input type="text"value="10-digit mobile number without prefix">
+            <p>May be ussed to aasist delivery</p>
+            <br>
+            <p>PIN code</p>
+            <input type="text"value="6digit[0-9] PIN code"><br>
+            <br>
+            <p>Flat, House no,Building,Company,Apartment</p>
+            <input type="text"value=""><br>
+            <br>
+            <p>Area, Colony,Street,Sectror,Village</p>
+            <input type="text"value=""><br>
+            <br>
+            <p>Landmark</p>
+            <input type="text"value=""><br>
+            <br>
+            <p>Town/City</p>
+            <input type="text"value=""><br>
+            <br>
+            <p>State/Provience/Region</p>
+            <select name="States" id="States">
+            <option>U.P</option>
+            <option >M.P</option>
+            <option>A.P</option>
+            <option>H.P</option>
+            </select><br>
+
+            <h2>Add delivery instuctions</h2><br>
+            <p>Prefrences are used to add to plan your delivery.However,shipment can sometimes arrive 
+            early or later than planed</p>
+
+            <br>
+            <br>
+            <p>State Address Type</p>
+            <select name="Address" id="Address">
+            <option>State Address Type </option>
+            <option >M.P</option>
+            <option>A.P</option>
+            <option>H.P</option>
+            </select><br>
+            <br>
+            <input type="submit" value="Add Address" class="sub" >
+        </form>
+    </div>
+</body>
+</html>
